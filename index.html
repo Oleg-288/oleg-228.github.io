@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<script src="global.js"></script>
+		<link rel="stylesheet" href="global.css">
+	</head>
+	<body onload="Start()" align="center">
+	<br>
+		<h1>Олег печенег</h1>
+		<br>
+		<hr>
+		<br>
+		<h1>Нажмите на кнопку, чтобы начать загрузку Олега</h1>
+		<br>
+		<input id="lOButton" type="button" onclick="LoadOleg()" value="Начать загрузку Олега">
+		<progress style="width: 100%; display: none" id="lOProgress" min="0" max="1000" value="0"></progress>
+		<h1 id="lOFinished" style="display: none">Олег успешно загружен!</h1>
+	</body>
+</html>
